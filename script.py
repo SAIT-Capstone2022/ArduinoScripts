@@ -13,7 +13,7 @@ with open('moistureLevel.json', 'r') as file:
 #need to split by every new object in the array 
 result = []
 
-#incremet count so that we can incremet file name 
+#increment count so that we can incremet file name 
 #each file will have its own object 
 
 #writing into a new file 
