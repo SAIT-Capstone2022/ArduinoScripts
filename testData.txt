@@ -1,0 +1,5 @@
+{"temp":21,"humidity":52,"moisture":50}
+{"temp":21,"humidity":52,"moisture":49}
+{"temp":21,"humidity":52,"moisture":48}
+{"temp":21,"humidity":52,"moisture":47}
+{"temp":21,"humidity":52,"moisture":46}

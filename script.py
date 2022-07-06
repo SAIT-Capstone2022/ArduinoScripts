@@ -1,26 +1,18 @@
 #import json module 
 import json
+from unittest import result
 
 
-count = 0
+#opening the local file through txt
+with open('testData.txt', 'r') as f:
+    text_split = f.read().split('}')
 
-#point to local file and using 'with' so we don't have to write .close()  
-with open('moistureLevel.json', 'r') as file:
+  
+#create new file with json
+with open('newfile' + '.json', 'w') as f:
+    f.write(text_split[0])
 
-#parsing json file to a dictonary(object)
-    data = json.load(file)
-
-#need to split by every new object in the array 
-result = []
-
-#incremet count so that we can incremet file name 
-#each file will have its own object 
-
-#writing into a new file 
-with open('data.json', 'w') as file: 
-    
-    json.dump(data, file, indent=2)
-
-
-
-
+#create new file with json and store objects
+with open('newfile' + '.json', 'w') as f:
+   
+    f.write('}'.join(text_split[1:]))
