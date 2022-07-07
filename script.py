@@ -3,7 +3,7 @@ import json
 from unittest import result
 
 
-number_of_splits = 49
+number_of_splits = 23
 
 #opening the local file through txt
 with open('testData.txt', 'r') as f:
