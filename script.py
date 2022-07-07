@@ -14,7 +14,6 @@ with open('newfile' + '.json', 'w') as f:
     f.write(text_split[0])
     
 #current unknown, we have a steady stream of files to read, with x amount of times of splitting. 
-#Incrementing through a loop because infinite therefore incremeting a file becomes infinite 
 
 #Option: Hard code the amount of times we want to split to have 
 
