@@ -39,6 +39,6 @@ void loop() {
   doc["moisture"] = moistPercentFloat;
   serializeJson(doc, Serial);
   Serial.println();
-  delay(1000);
+  delay(10000);
 
 }
